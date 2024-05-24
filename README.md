@@ -6,7 +6,7 @@ Je suis une personne dynamique et enthousiaste qui est toujours en quête de nou
 
 En dehors de mes accomplissements académiques, j'adore les sports techniques et qui nécessitent de la persévérance : un moyen pour moi de garder une vie équilibrée. Par l'entremise de la photographie, j'aime immortaliser mes expériences avec des photos. Référez-vous à la section de mes [photographies](https://thataquarel.github.io/#photographies) pour voir mes œuvres.
 
-Parfois, l'humour me permet de relaxer. C'est la raison pour laquelle j'ai une passion en art dramatique et en montage vidéo. Référez-vous à la section de [l'humour](https://thataquarel.github.io/#photographies) pour votre une de mes meilleurs vidéos.
+Parfois, l'humour me permet de relaxer. C'est la raison pour laquelle j'ai une passion en art dramatique et en montage vidéo. Référez-vous à la section de [l'humour](https://thataquarel.github.io/#humour) pour votre une de mes meilleurs vidéos.
 
 ## Projets
 
