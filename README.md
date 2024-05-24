@@ -14,11 +14,13 @@ Mes projets les plus marquants durant mon parcours au secondaire se basent tous 
 
 ### 2024 (Secondaire 5)
 - Février à aujourd'hui, Université McGill, premier auteur : [Modélisation de la résistance et de l'usage des antibiotiques à une échelle planétaire à l'aide du *machine learning* (ML), sur une période de 20 ans dans 145 pays.](https://thataquarel.github.io/health/)
-- Décembre à aujourd'hui : [Développement d'une plateforme robotique innovante et flexible pour le déneigement et pour la tonte de gazon](https://thataquarel.github.io/snowplower_mono/)
 
 ### 2023 (Secondaire 4)
 - Mai à juin, Collège Jean de la Mennais : [Conception d'un étui intelligent et d'un algorithme visuel d'intelligence artificielle (IA) pour aider la navigation et l'orientation des personnes malvoyantes par des signaux auditifs et haptiques.](https://thataquarel.github.io/6sens/)
 - Février à mai, Université McGill, premier auteur : [Étude transversale sur l'effet de la verdure sur la santé mentale des canadiens autochtones sur 10 provinces.](https://thataquarel.github.io/greenery/)
+
+### 2022 (Secondaire 3)
+- Juin à aujourd'hui : [Développement d'une plateforme robotique innovante et flexible pour le déneigement et pour la tonte de gazon](https://thataquarel.github.io/snowplower_mono/)
 
 ### 2021 (Secondaire 2)
 - Janvier, Collège Jean-de-Brébeuf, premier auteur : [Prédiction des passages piétonniers ayant un risque d'infection de COVID-19 le plus faible à l'aide de l'intelligence artificielle (IA).](https://thataquarel.github.io/SocialDistancePathfinder/)
