@@ -6,6 +6,8 @@ Je suis une personne dynamique et enthousiaste qui est toujours en quête de nou
 
 En dehors de mes accomplissements académiques, j'adore les sports techniques et qui nécessitent de la persévérance : un moyen pour moi de garder une vie équilibrée. Par l'entremise de la photographie, j'aime immortaliser mes expériences avec des photos. Référez-vous à la section de mes [photographies](https://thataquarel.github.io/#photographies) pour voir mes oeuvres.
 
+Parfois, l'humour me permet de relaxer. C'est la raison pour laquelle j'ai une passion en art dramatique et en montage vidéo. Référez-vous à la section de [l'humour](https://thataquarel.github.io/#photographies) pour votre une de mes meilleurs vidéos.
+
 ## Projets
 
 Mes projets les plus marquants durant mon parcours au secondaire se basent tous sur la technologie comme un moyen d'innovation. Par le biais de mes articles de recherche, j'explore notamment le domaine de l'intelligence artificelle : une invention qui a transformée le monde d'aujourd'hui, ainsi que notre avenir.
@@ -23,8 +25,18 @@ Mes projets les plus marquants durant mon parcours au secondaire se basent tous 
 
 ## Photographies
 
+[![Carrousel 1](https://raw.githubusercontent.com/ThatAquarel/thataquarel.github.io/main/images/carrousel_1.jpg)](https://raw.githubusercontent.com/ThatAquarel/thataquarel.github.io/main/images/carrousel_1.jpg)
+[![Carrousel 2](https://raw.githubusercontent.com/ThatAquarel/thataquarel.github.io/main/images/carrousel_2.jpg)](https://raw.githubusercontent.com/ThatAquarel/thataquarel.github.io/main/images/carrousel_2.jpg)
+[![Carrousel 3](https://raw.githubusercontent.com/ThatAquarel/thataquarel.github.io/main/images/carrousel_3.jpg)](https://raw.githubusercontent.com/ThatAquarel/thataquarel.github.io/main/images/carrousel_3.jpg)
 
+## Humour
+
+Dans le cadre du cours d'art dramatique, j'ai monté une publicité caricaturale d'une voiture... par Costco. Cette vidéo a été jouée au Gala de la reconnaissance en secondaire 4 en 2023.
+
+[![Démonstration vidéo](https://img.youtube.com/vi/G4RW0T4XuvQ/maxresdefault.jpg)](https://youtu.be/G4RW0T4XuvQ)
 
 ## Me joindre
 
-- Instagram
+- xtxiatianyi@gmail.com
+- 438 345-0922
+- Instagram : [@that_aquarel](https://www.instagram.com/that_aquarel)
