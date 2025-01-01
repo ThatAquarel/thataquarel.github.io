@@ -38,6 +38,12 @@ scene.add(pointLight, ambientLight);
 
 // const controls = new OrbitControls(camera, renderer.domElement);
 
+let camera_shift = 4;
+if (window.innerWidth < 900) {
+  camera_shift = 0;
+}
+  
+
 function moveCamera() {
   const t = document.body.getBoundingClientRect().top;
 
@@ -48,7 +54,7 @@ function moveCamera() {
   // camera.position.x = t * -0.00005 + 5;
 
   camera.position.z = t * -0.0015 + 10;
-  camera.position.x = t * -0.0012 + 4;
+  camera.position.x = t * -0.0012 + camera_shift;
   // camera.rotation.y = -Math.PI/2;
 }
 

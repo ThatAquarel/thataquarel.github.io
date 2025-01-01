@@ -133,7 +133,7 @@ export class Intro {
     }
 
     _update(t) {
-        console.log(-t/1792);
+        t = 0.8 * t;
 
         this.material.opacity = Math.max(1 + t /2500);
     
