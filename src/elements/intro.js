@@ -1,50 +1,45 @@
-class Intro {
+import * as THREE from 'three';
+import { STLLoader } from 'three/examples/jsm/loaders/STLLoader'
+
+export class Intro {
     constructor(scene) {
         const intro = new THREE.Group();
         const loader = new STLLoader();
 
-        let intro_0a, intro_0b;
-        loader.load('../res/3d/intro_0.stl', function (geometry) {
+        loader.load('../res/3d/intro_0.stl', (geometry) => {
           const material = new THREE.MeshPhongMaterial({ color: 0xaaaaaa });
-          intro_0a = new THREE.Mesh(geometry, material);
-          intro_0a.position.setZ(-10);
-          intro.add(intro_0a);
+          this.intro_0a = new THREE.Mesh(geometry, material);
+          this.intro_0a.position.setZ(-10);
+          intro.add(this.intro_0a);
         
-          intro_0b = new THREE.Mesh(geometry, material);
-          intro_0b.position.setZ(- 138);
-          intro_0b.rotateZ(Math.PI);
-          intro.add(intro_0b);
+          this.intro_0b = new THREE.Mesh(geometry, material);
+          this.intro_0b.position.setZ(- 138);
+          this.intro_0b.rotateZ(Math.PI);
+          intro.add(this.intro_0b);
         });
 
-        this.intro_0a = intro_0a;
-        this.intro_0b = intro_0b;
-
-        let intro_1;
-        loader.load('../res/3d/intro_1.stl', function (geometry) {
+        loader.load('../res/3d/intro_1.stl', (geometry) => {
           const material = new THREE.MeshPhongMaterial({ color: 0xaaaaaa });
-          intro_1 = new THREE.Mesh(geometry, material);
-          intro_1.position.setZ(55);
-          intro.add(intro_1);
+          this.intro_1 = new THREE.Mesh(geometry, material);
+          this.intro_1.position.setZ(55);
+          intro.add(this.intro_1);
         });
 
-        this.intro_1 = intro_1;
-
-        let intro_2;
-        loader.load('../res/3d/intro_2.stl', function (geometry) {
+        loader.load('../res/3d/intro_2.stl',  (geometry) => {
           const material = new THREE.MeshPhongMaterial({ color: 0xaaaaaa });
-          intro_2 = new THREE.Mesh(geometry, material);
+          this.intro_2 = new THREE.Mesh(geometry, material);
         
-          intro_2.position.setZ(-40);
-          intro.add(intro_2);
+          this.intro_2.position.setZ(-40);
+          intro.add(this.intro_2);
         });
 
-        this.intro_2 = intro_2;
 
-        let intro_cyl_a = [];
-        let intro_cyl_b = [];
-        loader.load('../res/3d/intro_cyl.stl', function (geometry) {
+        loader.load('../res/3d/intro_cyl.stl', (geometry) => {
           const material = new THREE.MeshPhongMaterial({ color: 0xaaaaaa });
         
+          this.intro_cyl_a = [];
+          this.intro_cyl_b = [];
+
           for (let i = 0; i < 3; i++) {
             let rad = i * 2 * Math.PI / 3 + Math.PI / 2;
         
@@ -55,12 +50,9 @@ class Intro {
             mesh.position.set(x_offset, 38.4/2 + y_offset, 0);
             intro.add(mesh);
         
-            intro_cyl_a.push(mesh);
+            this.intro_cyl_a.push(mesh);
           }
 
-          this.intro_cyl_a = intro_cyl_a;
-          this.intro_cyl_b = intro_cyl_b;
-        
           for (let i = 0; i < 3; i++) {
             let rad = i * 2 * Math.PI / 3 - Math.PI / 2;
         
@@ -73,10 +65,10 @@ class Intro {
             mesh.position.set(x_offset, 38.4/2 + y_offset, -128);
             intro.add(mesh);
         
-            intro_cyl_b.push(mesh);
+            this.intro_cyl_b.push(mesh);
           }
         });
-        
+
         intro.rotateY(-Math.PI * 7/6);
         intro.rotateX(-Math.PI/4);
         intro.scale.set(0.035, 0.035, 0.035);
@@ -105,11 +97,11 @@ class Intro {
             return;
         }
 
-        if (this.intro_cyl_a.length == 0){
+        if (this.intro_cyl_a == undefined){
             return;
         }
 
-        if (this.intro_cyl_b.length == 0){
+        if (this.intro_cyl_b == undefined){
             return;
         }
 
@@ -117,6 +109,9 @@ class Intro {
     }
 
     _update(t) {
-        this.intro_0a.position.z = t* -1 - 10;
+        this.intro.rotateZ(Math.abs(t) * 0.0001)
+
+        this.intro_0a.position.z = t*t* 0.001 - 10;
+        this.intro_0b.position.z = t*t* -0.001 - 138;
     }
 }
