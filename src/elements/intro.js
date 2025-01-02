@@ -133,32 +133,33 @@ export class Intro {
     }
 
     _update(t) {
-        t = 0.8 * t;
+        let a = 0.4*t;
+        let b = t;
 
-        this.material.opacity = Math.max(1 + t /2500);
+        this.material.opacity = Math.max(1 + t /7000);
     
 
-        this.intro.rotation.x = t * 0.0010;
-        this.intro.rotation.y = t * -0.00025;
-        this.intro.rotation.z = t * 0.003;
+        this.intro.rotation.x = b * 0.0010;
+        this.intro.rotation.y = b * -0.00025;
+        this.intro.rotation.z = b * 0.0003;
 
-        this.intro_0a.position.z = t*t* 0.000025 - 10;
-        this.intro_0b.position.z = t*t* -0.00003 - 138;
-        this.intro_0c.position.z = t*t* -0.00007 - 266;
+        this.intro_0a.position.z = a*a* 0.000025 - 10;
+        this.intro_0b.position.z = a*a* -0.00003 - 138;
+        this.intro_0c.position.z = a*a* -0.00007 - 266;
 
-        this.intro_1.position.z = t*t* 0.000075 + 55;
-        this.intro_2.position.z = t*t* 0.0001 - 40;
+        this.intro_1.position.z = a*a* 0.000075 + 55;
+        this.intro_2.position.z = a*a* 0.0001 - 40;
 
         this.intro_cyl_a.forEach((intro_cyl) => {
-            intro_cyl.position.setZ(t*t* 0.00005);
+            intro_cyl.position.setZ(a*a* 0.00005);
         });
 
         this.intro_cyl_b.forEach((intro_cyl) => {
-            intro_cyl.position.setZ(t*t* -0.00001  - 128);
+            intro_cyl.position.setZ(a*a* -0.00001  - 128);
         });
 
         this.intro_cyl_c.forEach((intro_cyl) => {
-            intro_cyl.position.setZ(t*t* -0.00005  - 256);
+            intro_cyl.position.setZ(a*a* -0.00005  - 256);
         });
     }
 }

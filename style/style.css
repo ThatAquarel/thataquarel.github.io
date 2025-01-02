@@ -5,9 +5,9 @@ canvas {
 }
 
 body {
-  background: #0f2027;
-  background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364);
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000, #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 * {
@@ -125,4 +125,32 @@ h1 {
   font-weight: 600;
   font-size: 2.5em;
   line-height: 1.2em;
+}
+
+
+img {
+  filter: grayscale(100%);
+  /* position: absolute; */
+  /* grid-column: 4 / 9; */
+  z-index:100;
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0.9;
+
+  transition: box-shadow 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+  transform: translateY(0);
+}
+
+img:hover {
+  filter:none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Drop shadow */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+@media screen and (max-width: 900px) {
+  img {
+    filter: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Drop shadow */
+    transform: translateY(-2px);
+  }
 }
