@@ -15,8 +15,36 @@ function getMontrealTime() {
 getMontrealTime();
 
 
-document.getElementById("email").addEventListener("click", email);
+const engineering_button = document.getElementById('engineering');
+const engineering_section = document.getElementById('engineering-section');
 
-function email() {
+engineering_button.addEventListener('click', function() {
+  window.scrollTo({
+    top: engineering_section.offsetTop,
+    behavior: 'smooth' 
+  });
+});
 
-}
+
+
+const photography_button = document.getElementById('photography');
+const photography_section = document.getElementById('photography-section');
+
+photography_button.addEventListener('click', function() {
+  window.scrollTo({
+    top: photography_section.offsetTop,
+    behavior: 'smooth' 
+  });
+});
+
+
+
+const comedy_button = document.getElementById('comedy');
+const comedy_section = document.getElementById('comedy-section');
+
+comedy_button.addEventListener('click', function() {
+  window.scrollTo({
+    top: comedy_section.offsetTop,
+    behavior: 'smooth' 
+  });
+});

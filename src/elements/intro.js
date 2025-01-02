@@ -136,7 +136,7 @@ export class Intro {
         let a = 0.4*t;
         let b = t;
 
-        this.material.opacity = Math.max(1 + t /7000);
+        this.material.opacity = Math.max(1 + t /9000);
     
 
         this.intro.rotation.x = b * 0.0010;

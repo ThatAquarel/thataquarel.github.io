@@ -127,6 +127,13 @@ h1 {
   line-height: 1.2em;
 }
 
+h6 {
+  padding-top: 0;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight:100;
+  font-size:0.5em;
+}
 
 img {
   filter: grayscale(100%);
@@ -153,4 +160,26 @@ img:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Drop shadow */
     transform: translateY(-2px);
   }
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+
+  border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.4);
+
+  padding-top: 25px;
+
+  font-weight: 200;
+  font-size: 0.75em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+hr {
+  width: 5%;
 }
