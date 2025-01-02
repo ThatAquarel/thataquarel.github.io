@@ -14,7 +14,7 @@ export class Intro {
             opacity: 1.0,
           });
 
-        loader.load('../res/3d/intro_0.stl', (geometry) => {
+        loader.load('res/3d/intro_0.stl', (geometry) => {
           this.intro_0a = new THREE.Mesh(geometry, material);
           this.intro_0a.position.setZ(-10);
           intro.add(this.intro_0a);
@@ -30,13 +30,13 @@ export class Intro {
           intro.add(this.intro_0c);
         });
 
-        loader.load('../res/3d/intro_1.stl', (geometry) => {
+        loader.load('res/3d/intro_1.stl', (geometry) => {
           this.intro_1 = new THREE.Mesh(geometry, material);
           this.intro_1.position.setZ(55);
           intro.add(this.intro_1);
         });
 
-        loader.load('../res/3d/intro_2.stl',  (geometry) => {
+        loader.load('res/3d/intro_2.stl',  (geometry) => {
           this.intro_2 = new THREE.Mesh(geometry, material);
         
           this.intro_2.position.setZ(-40);
@@ -44,7 +44,7 @@ export class Intro {
         });
 
 
-        loader.load('../res/3d/intro_cyl.stl', (geometry) => {        
+        loader.load('res/3d/intro_cyl.stl', (geometry) => {        
           this.intro_cyl_a = [];
           this.intro_cyl_b = [];
           this.intro_cyl_c = [];
